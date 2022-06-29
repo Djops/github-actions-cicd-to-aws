@@ -2,8 +2,8 @@
 name: CICD-pipline-to-AWS-ElasticBeanstalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "flask-application"
-  EB_APPLICATION_NAME      : "NewAplication"
-  EB_ENVITONMENT_NAME      : "NewAplication-env"
+  EB_APPLICATION_NAME      : "BevApp"
+  EB_ENVITONMENT_NAME      : "BevApp-env"
   DEPLOY_PACKAGE_NAME      : "flask_app_${{ github.sha }}.zip"
   AWS_REGION_NAME          : "us-east-2"
   
