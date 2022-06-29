@@ -39,8 +39,8 @@ jobs:
       run : echo "CI pipline Finished"
       
   my_cd_part:
-   runs-on: ubuntu-latest:
-   nedds: [my_ci_part]
+   runs-on: ubuntu-latest
+
    
    steps:
    - name: Configure my AWS Credentials
